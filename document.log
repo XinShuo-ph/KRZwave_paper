@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.11)  30 SEP 2018 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.11)  30 SEP 2018 16:33
 entering extended mode
 **./document.tex
 (document.tex
@@ -283,15 +283,15 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<krz_kerr_wave.png, id=1, 1190.4475pt x 334.24875pt>
+<krz_kerr_wave.png, id=1, 1187.43625pt x 334.24875pt>
 File: krz_kerr_wave.png Graphic file (type png)
 <use krz_kerr_wave.png>
-Package pdftex.def Info: krz_kerr_wave.png  used on input line 13. on input lin
-e 13.
-Package pdftex.def Info: Requested size: 455.24408pt x 127.82167pt on input lin
-e 13.
+Package pdftex.def Info: krz_kerr_wave.png  used on input line 26. on input lin
+e 26.
+Package pdftex.def Info: Requested size: 455.24408pt x 128.14809pt on input lin
+e 26.
 
-Overfull \hbox (25.23946pt too wide) in paragraph at lines 13--14
+Overfull \hbox (25.23946pt too wide) in paragraph at lines 26--27
  [][] 
  []
 
@@ -300,20 +300,21 @@ Overfull \hbox (25.23946pt too wide) in paragraph at lines 13--14
 {C:/Users/HP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./krz_kerr_wav
 e.png>] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 2756 strings out of 493312
- 37503 string characters out of 3138908
- 103900 words of memory out of 3000000
- 6280 multiletter control sequences out of 15000+200000
- 4094 words of font info for 16 fonts, out of 3000000 for 9000
+ 2761 strings out of 493312
+ 37553 string characters out of 3138908
+ 105900 words of memory out of 3000000
+ 6283 multiletter control sequences out of 15000+200000
+ 4699 words of font info for 18 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,43p,521b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,5n,43p,685b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on document.pdf (1 page, 153559 bytes).
+s/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on document.pdf (1 page, 229420 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
