@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage{indentfirst}
 \usepackage{geometry}
+\usepackage{citesort}
 
 \begin{document}
 
@@ -15,18 +16,25 @@ Given a waveform under specetiem with non-zero deformation parameter, we need to
 
 If we restrict ourselves to equatorial motion, set the initial $t$ and $\phi$ to 0 taking advantage of symmetry and set initial $r=r_{max}$ imposing the phase to match, orbital eccentricity $e$, semilatus rectum $p$, BH mass $M$ and BH spin $a$ are the parameters that determine the motion.
 
-According to , orbits with same orbital frequency $\omega_r$ and $\omega_\phi$ can generate most similar gravitational waveforms. Here we check this result by lookinf at overlaps between waveforms with ($\delta_1,\, a,\, M,\, e,\, p$) = (0.2, 0.5, , 0.5, 6).
+According to Ref. \cite{sameOmg}, orbits with same orbital frequency $\omega_r$ and $\omega_\phi$ can generate most similar gravitational waveforms. Here we check this result by lookinf at overlaps between waveforms with ($\delta_1,\, a,\, M,\, e,\, p$) = (0.2, 0.5, , 0.5, 6). First we look at overlap distribution on a relatively large range of (e, p). Then we search near ($e_{Kerr}$, $p_{Kerr}$) with same orbital frequency, as shown in Fig. \ref{overlapdist}. 
 
-First we look at overlap distribution on a relatively large range of (e, p).
+Note that the difference between equating $\omega^{(t)}$, orbital frequency with respect to coordiante time, and $\omega^{(\tau)}$, orbital frequency with respect to proper time, can be significant. From Fig. \ref{overlapdist} it is explicit that the same orbital frequency with respect to t can result in almost the largest overlap while the same orbital frequency with respect to $\tau$ cannot. In Kerr spacetime, the expression for $\omega^{(t)}$ and $\omega^{(\tau)}$ are given in \cite{tOmg} and \cite{tauOmg} 
 
-Then take a closer look at the distribution near (e,p) with same orbital frequency. Note that the same orbital frequency with respect to t can result in largest overlap while the same orbital frequency with respect to $\tau$ cannot.
+\begin{figure}[]
+	\centering
+	\includegraphics[width=16cm]{OLdist.png}
+	\includegraphics[width=16cm]{OLdist2.png}
+	
+	\caption{Distribution of overlap between waveform of ($\delta_1,\, a,\, M,\, e,\, p$) = (0.2, 0.5, , 0.5, 6) and waveforms of ($\delta_1,\, a,\, M,\, e,\, p$) =(0.2, 0.5, , $e_{Kerr}$, $p_{Kerr}$) on ($e_{Kerr}$, $p_{Kerr}$) plane. The original data are both 50*50 grid. Red cross mark: same $\omega^{(t)}$ at ($e_{Kerr}$, $p_{Kerr}$) = (0.409248, 6.481170), overlap is 0.8731. Black plus mark: same $\omega^{(\tau)}$ at  ($e_{Kerr}$, $p_{Kerr}$) = (0.411495, 6.482549), overlap is 0.0507 }
+	\label{overlapdist}
+\end{figure}
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=16cm]{krz_kerr_wave.png}
 	
 	\caption{Comparison between waveforms of $h_+$ with respect to retarded time in units of central black hole mass $M$. The black solid line is the waveform under $\delta_1=0.2$, e=0.5,p=6. The red dashed line is the waveform under $\delta_1=0$ and e, p adapted so that the orbital frequencies with respect to t $\omega^{(t)}_r$ and $\omega^{(t)}_\phi$ are the same as that of the orbit under d1=0.2, e=0.5, p=6. The green dotted line is the waveform under $\delta_1 =0$ and e, p adopted so that $\omega^{(\tau)}$s are the same . The spin of the central black hole is 0.5M.}
-	\label{range}
+	\label{kkwave}
 \end{figure}	
 	
 Therefore we regard waveforms in Kerr spacetime with same orbital frequencies as best matches to waveforms in non-Kerr space time under KRZ parametrization.
@@ -34,5 +42,8 @@ Therefore we regard waveforms in Kerr spacetime with same orbital frequencies as
 Fig. shows the overlap distrobution...
 
 As Fig. suggest, the confusion problem still exists in KRZ parametrization. The deformation parameter $\delta_1$ is kind of degenerated with   in Kerr spacetime. This resulted can also be found by looking at covariance matrix as discussed in next section
-\section{Restriction on deformation parameter by future LISA task}
+\section{Constraints on deformation parameter by future LISA task}
+
+\bibliography{citation}
+\bibliographystyle{plain}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.11)  30 SEP 2018 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.11)  2 OCT 2018 15:00
 entering extended mode
 **./document.tex
 (document.tex
@@ -173,33 +173,39 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen134
 \Gm@dimlist=\toks22
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) (document.aux)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\citesort.sty"
+\@minsofar=\count107
+\@min=\count108
+\@cite@temp=\count109
+) (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
+\scratchcounter=\count110
 \scratchdimen=\dimen135
 \scratchbox=\box30
-\nofMPsegments=\count108
-\nofMParguments=\count109
+\nofMPsegments=\count111
+\nofMParguments=\count112
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count110
+\MPscratchCnt=\count113
 \MPscratchDim=\dimen136
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
 \everyMPtoPDFconversion=\toks24
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -283,38 +289,66 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<krz_kerr_wave.png, id=1, 1187.43625pt x 334.24875pt>
-File: krz_kerr_wave.png Graphic file (type png)
-<use krz_kerr_wave.png>
-Package pdftex.def Info: krz_kerr_wave.png  used on input line 26. on input lin
-e 26.
-Package pdftex.def Info: Requested size: 455.24408pt x 128.14809pt on input lin
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 23.
+
+<OLdist.png, id=1, 1111.90407pt x 529.22719pt>
+File: OLdist.png Graphic file (type png)
+<use OLdist.png>
+Package pdftex.def Info: OLdist.png  used on input line 25. on input line 25.
+Package pdftex.def Info: Requested size: 455.24408pt x 216.67769pt on input lin
+e 25.
+<OLdist2.png, id=2, 1111.90407pt x 529.22719pt>
+File: OLdist2.png Graphic file (type png)
+<use OLdist2.png>
+Package pdftex.def Info: OLdist2.png  used on input line 26. on input line 26.
+Package pdftex.def Info: Requested size: 455.24408pt x 216.67769pt on input lin
 e 26.
 
-Overfull \hbox (25.23946pt too wide) in paragraph at lines 26--27
+Overfull \hbox (25.23946pt too wide) in paragraph at lines 25--27
  [][] 
  []
 
-[1
 
-{C:/Users/HP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./krz_kerr_wav
-e.png>] (document.aux) ) 
+Overfull \hbox (25.23946pt too wide) in paragraph at lines 25--27
+ [] 
+ []
+
+<krz_kerr_wave.png, id=3, 1187.43625pt x 334.24875pt>
+File: krz_kerr_wave.png Graphic file (type png)
+<use krz_kerr_wave.png>
+Package pdftex.def Info: krz_kerr_wave.png  used on input line 34. on input lin
+e 34.
+Package pdftex.def Info: Requested size: 455.24408pt x 128.14809pt on input lin
+e 34.
+
+Overfull \hbox (25.23946pt too wide) in paragraph at lines 34--35
+ [][] 
+ []
+
+(document.bbl) [1
+
+{C:/Users/HP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <./OLdist.p
+ng (PNG copy)> <./OLdist2.png (PNG copy)>] [3 <./krz_kerr_wave.png>] (document.
+aux) ) 
 Here is how much of TeX's memory you used:
- 2761 strings out of 493312
- 37553 string characters out of 3138908
- 105900 words of memory out of 3000000
- 6283 multiletter control sequences out of 15000+200000
- 4699 words of font info for 18 fonts, out of 3000000 for 9000
+ 2793 strings out of 493312
+ 38093 string characters out of 3138908
+ 109051 words of memory out of 3000000
+ 6305 multiletter control sequences out of 15000+200000
+ 5045 words of font info for 19 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,43p,685b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on document.pdf (1 page, 229420 bytes).
+ 41i,5n,43p,839b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb>
+Output written on document.pdf (3 pages, 397097 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
