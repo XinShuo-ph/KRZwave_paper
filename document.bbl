@@ -1,5 +1,18 @@
 \begin{thebibliography}{1}
 
+\bibitem{kludge}
+Stanislav Babak, Hua Fang, Jonathan~R. Gair, Kostas Glampedakis, and Scott~A.
+  Hughes.
+\newblock ``kludge'' gravitational waveforms for a test-body orbiting a kerr
+  black hole.
+\newblock {\em Phys. Rev. D}, 75:024005, Jan 2007.
+
+\bibitem{majorPRD}
+Enrico Barausse, Luciano Rezzolla, David Petroff, and Marcus Ansorg.
+\newblock Gravitational waves from extreme mass ratio inspirals in nonpure kerr
+  spacetimes.
+\newblock {\em Phys. Rev. D}, 75:064026, Mar 2007.
+
 \bibitem{sameOmg}
 Kostas Glampedakis and Stanislav Babak.
 \newblock Mapping spacetimes with lisa: inspiral of a test body in a
