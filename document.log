@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.11)  7 OCT 2018 12:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.11)  13 OCT 2018 17:13
 entering extended mode
 **./document.tex
 (document.tex
@@ -327,29 +327,79 @@ Overfull \hbox (25.23946pt too wide) in paragraph at lines 37--38
  [][] 
  []
 
+<ep_best_dist.png, id=5, 789.70032pt x 502.87875pt>
+File: ep_best_dist.png Graphic file (type png)
+<use ep_best_dist.png>
+Package pdftex.def Info: ep_best_dist.png  used on input line 45. on input line
+ 45.
+Package pdftex.def Info: Requested size: 455.24408pt x 289.89734pt on input lin
+e 45.
+
+Overfull \hbox (25.23946pt too wide) in paragraph at lines 45--46
+ [][] 
+ []
+
+<d1_spin_linear.png, id=6, 867.24pt x 578.16pt>
+File: d1_spin_linear.png Graphic file (type png)
+<use d1_spin_linear.png>
+Package pdftex.def Info: d1_spin_linear.png  used on input line 53. on input li
+ne 53.
+Package pdftex.def Info: Requested size: 455.24408pt x 303.49443pt on input lin
+e 53.
+<d2_spin_linear.png, id=7, 867.24pt x 578.16pt>
+File: d2_spin_linear.png Graphic file (type png)
+<use d2_spin_linear.png>
+Package pdftex.def Info: d2_spin_linear.png  used on input line 54. on input li
+ne 54.
+Package pdftex.def Info: Requested size: 199.16928pt x 132.7799pt on input line
+ 54.
+File: d2_spin_linear.png Graphic file (type png)
+<use d2_spin_linear.png>
+Package pdftex.def Info: d2_spin_linear.png  used on input line 55. on input li
+ne 55.
+Package pdftex.def Info: Requested size: 199.16928pt x 132.7799pt on input line
+ 55.
+
+Overfull \hbox (25.23946pt too wide) in paragraph at lines 53--56
+ [][] 
+ []
+
+<d2_deltaspin_ep.png, id=8, 867.24pt x 578.16pt>
+File: d2_deltaspin_ep.png Graphic file (type png)
+<use d2_deltaspin_ep.png>
+Package pdftex.def Info: d2_deltaspin_ep.png  used on input line 62. on input l
+ine 62.
+Package pdftex.def Info: Requested size: 455.24408pt x 303.49443pt on input lin
+e 62.
+
+Overfull \hbox (25.23946pt too wide) in paragraph at lines 62--63
+ [][] 
+ []
+
 (document.bbl [1
 
 {C:/Users/HP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <./OLdist.p
-ng (PNG copy)> <./OLdist2.png (PNG copy)>]) [3 <./krz_kerr_wave.png>] (document
-.aux) ) 
+ng (PNG copy)> <./OLdist2.png (PNG copy)>]) [3 <./krz_kerr_wave.png>] [4 <./ep_
+best_dist.png (PNG copy)>] [5 <./d1_spin_linear.png> <./d2_spin_linear.png>] [6
+ <./d2_deltaspin_ep.png>] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 2795 strings out of 493312
- 38111 string characters out of 3138908
- 110057 words of memory out of 3000000
- 6307 multiletter control sequences out of 15000+200000
+ 2818 strings out of 493312
+ 38571 string characters out of 3138908
+ 112081 words of memory out of 3000000
+ 6326 multiletter control sequences out of 15000+200000
  5045 words of font info for 19 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,5n,43p,869b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb>
-Output written on document.pdf (3 pages, 406595 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on document.pdf (6 pages, 2294798 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
