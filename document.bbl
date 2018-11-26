@@ -1,4 +1,24 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{lisa}
+http://lisa.nasa.gov/.
+
+\bibitem{ligo}
+B.~P. et~al. Abbott.
+\newblock Observation of gravitational waves from a binary black hole merger.
+\newblock {\em Phys. Rev. Lett.}, 116:061102, Feb 2016.
+
+\bibitem{170817}
+B.~P. et~al. Abbott.
+\newblock Gw170817: Observation of gravitational waves from a binary neutron
+  star inspiral.
+\newblock {\em Phys. Rev. Lett.}, 119:161101, Oct 2017.
+
+\bibitem{MCMC}
+Asad Ali, Nelson Christensen, Renate Meyer, and Christian Röver.
+\newblock Bayesian inference on emri signals using low frequency
+  approximations.
+\newblock {\em Classical and Quantum Gravity}, 29(14):145014, 2012.
 
 \bibitem{kludge}
 Stanislav Babak, Hua Fang, Jonathan~R. Gair, Kostas Glampedakis, and Scott~A.
@@ -7,16 +27,52 @@ Stanislav Babak, Hua Fang, Jonathan~R. Gair, Kostas Glampedakis, and Scott~A.
   black hole.
 \newblock {\em Phys. Rev. D}, 75:024005, Jan 2007.
 
+\bibitem{t4_Iron}
+Cosimo Bambi, Alejandro Cárdenas-Avendaño, Thomas Dauser, Javier~A. García,
+  and Sourabh Nampalliwar.
+\newblock Testing the kerr black hole hypothesis using x-ray reflection
+  spectroscopy.
+\newblock {\em The Astrophysical Journal}, 842(2):76, 2017.
+
+\bibitem{AK}
+Leor Barack and Curt Cutler.
+\newblock Lisa capture sources: Approximate waveforms, signal-to-noise ratios,
+  and parameter estimation accuracy.
+\newblock {\em Phys. Rev. D}, 69:082005, Apr 2004.
+
+\bibitem{07conf}
+Enrico Barausse, Luciano Rezzolla, David Petroff, and Marcus Ansorg.
+\newblock Gravitational waves from extreme mass ratio inspirals in nonpure kerr
+  spacetimes.
+\newblock {\em Phys. Rev. D}, 75:064026, Mar 2007.
+
 \bibitem{majorPRD}
 Enrico Barausse, Luciano Rezzolla, David Petroff, and Marcus Ansorg.
 \newblock Gravitational waves from extreme mass ratio inspirals in nonpure kerr
   spacetimes.
 \newblock {\em Phys. Rev. D}, 75:064026, Mar 2007.
 
+\bibitem{johannsen_diff}
+Vitor Cardoso, Paolo Pani, and Jo\~ao Rico.
+\newblock On generic parametrizations of spinning black-hole geometries.
+\newblock {\em Phys. Rev. D}, 89:064007, Mar 2014.
+
 \bibitem{product}
 Lee~S. Finn.
 \newblock Detection, measurement, and gravitational radiation.
 \newblock {\em Phys. Rev. D}, 46:5236--5249, Dec 1992.
+
+\bibitem{machine_learning}
+Daniel George and E.A. Huerta.
+\newblock Deep learning for real-time gravitational wave detection and
+  parameter estimation: Results with advanced ligo data.
+\newblock {\em Physics Letters B}, 778:64 -- 70, 2018.
+
+\bibitem{review_waveform}
+Kostas Glampedakis.
+\newblock Extreme mass ratio inspirals: Lisa's unique probe of black hole
+  gravity.
+\newblock {\em Classical and Quantum Gravity}, 22(15):S605, 2005.
 
 \bibitem{sameOmg}
 Kostas Glampedakis and Stanislav Babak.
@@ -24,11 +80,54 @@ Kostas Glampedakis and Stanislav Babak.
   'quasi-kerr' field.
 \newblock {\em Classical and Quantum Gravity}, 23(12):4167, 2006.
 
+\bibitem{TB}
+Michael~D. Hartl and Alessandra Buonanno.
+\newblock Dynamics of precessing binary black holes using the post-newtonian
+  approximation.
+\newblock {\em Phys. Rev. D}, 71:024027, Jan 2005.
+
+\bibitem{johannsen_final}
+Tim Johannsen.
+\newblock Regular black hole metric with three constants of motion.
+\newblock {\em Phys. Rev. D}, 88:044002, Aug 2013.
+
+\bibitem{t3_BHShadow}
+Tim Johannsen, Avery~E. Broderick, Philipp~M. Plewa, Sotiris Chatzopoulos,
+  Sheperd~S. Doeleman, Frank Eisenhauer, Vincent~L. Fish, Reinhard Genzel,
+  Ortwin Gerhard, and Michael~D. Johnson.
+\newblock Testing general relativity with the shadow size of sgr
+  ${\mathrm{a}}^{*}$.
+\newblock {\em Phys. Rev. Lett.}, 116:031101, Jan 2016.
+
+\bibitem{johannsen}
+Tim Johannsen and Dimitrios Psaltis.
+\newblock Metric for rapidly spinning black holes suitable for strong-field
+  tests of the no-hair theorem.
+\newblock {\em Phys. Rev. D}, 83:124015, Jun 2011.
+
+\bibitem{t1_Iron}
+Tim Johannsen and Dimitrios Psaltis.
+\newblock Testing the no-hair theorem with observations in the electromagnetic
+  spectrum. iv. relativistically broadened iron lines.
+\newblock {\em The Astrophysical Journal}, 773(1):57, 2013.
+
 \bibitem{KRZ}
 Roman Konoplya, Luciano Rezzolla, and Alexander Zhidenko.
 \newblock General parametrization of axisymmetric black holes in metric
   theories of gravity.
 \newblock {\em Phys. Rev. D}, 93:064015, Mar 2016.
+
+\bibitem{t2_XrayPol}
+Henric Krawczynski.
+\newblock Tests of general relativity in the strong-gravity regime based on
+  x-ray spectropolarimetric observations of black holes in x-ray binaries.
+\newblock {\em The Astrophysical Journal}, 754(2):133, 2012.
+
+\bibitem{test_bumpyBH}
+Christopher~J Moore, Alvin J~K Chua, and Jonathan~R Gair.
+\newblock Gravitational waves from extreme mass ratio inspirals around bumpy
+  black holes.
+\newblock {\em Classical and Quantum Gravity}, 34(19):195009, 2017.
 
 \bibitem{cosimoKRZ}
 Yueying Ni, Jiachen Jiang, and Cosimo Bambi.
@@ -36,6 +135,12 @@ Yueying Ni, Jiachen Jiang, and Cosimo Bambi.
   parametrization.
 \newblock {\em Journal of Cosmology and Astroparticle Physics}, 2016(09):014,
   2016.
+
+\bibitem{test_scalar-tensor}
+Paul~D. Scharre and Clifford~M. Will.
+\newblock Testing scalar-tensor gravity using space gravitational-wave
+  interferometers.
+\newblock {\em Phys. Rev. D}, 65:042002, Jan 2002.
 
 \bibitem{tauOmg}
 W~Schmidt.
