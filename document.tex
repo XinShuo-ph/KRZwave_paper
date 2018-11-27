@@ -22,10 +22,10 @@
 \section{Introduction}
 
 %LIGO 的结果
-LIGO's detection of Black Hole (BH) merger event GW150914 has opened the era of Gravitational wave astronomy\cite{ligo}. Observation of  GW170817 \cite{170817}and its electromagnetic counterpart led us to multi-messenger astronomy. Electromagnetic observation has deepened our understanding of the universe since born of astronomy and the new messenger, gravitational wave, might do even better. 
+LIGO's detection of Black Hole (BH) merger event GW150914 has opened the era of Gravitational wave astronomy\cite{ligo}. Observation of  GW170817 \cite{170817}and its electromagnetic counterpart led us to multi-messenger astronomy\cite{multi}. Electromagnetic observation has deepened our understanding of the universe since born of astronomy and the new messenger, gravitational wave, might do even better. With ground-based detectors\cite{a_ligo}\cite{virgo}, space interferometers\cite{lisa_org} and pulsar timing arrays\cite{PTA}, we may observe merger events, EMRI, GW background and etc. These observations that are unaccessible to us previously could potentially deepen our understanding for the universe and fundamental physics.
 
 %LISA
-Current ground-based gravitational wave detectors are able to detect gravitational waves (GWs) at relatively high frequency band. Laser Interferometer Space Antenna (LISA), planned to launch in 2030s, will extend the observation band down to milli-Hertz \cite{lisa}. LISA pathfinder has demonstrated desired accuracy by its noise spectrum and future LISA task can possibly release enormous scientific yields. 
+Current ground-based gravitational wave detectors are able to detect gravitational waves (GWs) at relatively high frequency band. Laser Interferometer Space Antenna (LISA), planned to launch in 2030s, will extend the observation band down to milli-Hertz \cite{lisa}. LISA pathfinder has demonstrated desired accuracy by its noise spectrum\cite{LPF} and future LISA task can possibly release enormous scientific yields. By analyzing GW signals at LISA band, we can study the merger history of BHs\cite{lisa_mergerhistory}, probe stellar dynamics\cite{sameOmg} and test gravity theories\cite{test_GR}.
 
 %EMRI
 Extreme Mass Ratio Inspiral (EMRI), e.g. a stellar mass compact object (1-10 $M_{\odot}$) orbiting around a Supermassive Black Hole (SMBH), is a promising source of GW signal at LISA band. %EMRI重要性
@@ -38,10 +38,10 @@ One scientific goal of LISA task is testing General Relativity (GR) and Kerr met
 However, as \cite{07conf} mentioned, due to large parameter space EMRI has, "confusion problem" can prevent us from parameter estimation and, therefore, testing alternative theory or metric. Namely, two EMRI waveform with different parameters can be almost identical (overlap, as defined in \ref{p_mf}, over 0.97). This problem is demonstrated in \cite{majorPRD} for a special case, i.e. consider an approximate metric describing BH+torus and Kerr metric, confusion problem exists for EMRI emission from equatorial orbits. We try to extend the analysis to continuously parametrized metric and inclined eccentric orbits.
 
 %KRZ parametrization
-In order to test No-Hair Theorem, i.e. astrophysical BHs are described only by mass and spin, many model-independent parametrization of BH metric have been proposed. The metric proposed by Tim Johannsen and Dimitrios Psaltis, expanding the metric component in power series of $\frac{1}{r}$\cite{johannsen}, is widely used in testing Kerr hypothesis. However, as mentioned in \cite{johannsen_diff}, Johannsen metric has some convergence deficiencies. Such problem can be solved by the parametrization proposed in \cite {KRZ}, expanding the metric functions in power series of $\cos \theta$. Here we use the finite number of deformation parameters as chosen in \cite{cosimoKRZ}, another test of Kerr metric.
+In order to test No-Hair Theorem, i.e. astrophysical BHs are described only by mass and spin, many model-independent parametrization of BH metric have been proposed. The JP metric proposed by Tim Johannsen and Dimitrios Psaltis\cite{johannsen} and the Johannsen metric proposed by Tim Johannsen \cite{johannsen_final}, both expanding the metric component in power series of $\frac{M}{r}$, are widely used in testing Kerr hypothesis. However, as mentioned in \cite{johannsen_diff}, Johannsen metric has some convergence deficiencies. Such problem can be solved by the parametrization proposed in \cite {KRZ}, expanding the metric functions in power series of $\cos \theta$. Here we use the finite number of deformation parameters as chosen in \cite{cosimoKRZ}, another test of Kerr metric.
 
 %in this paper...
-The rest of this paper is organized as follows. In Sec. \ref{p_krz}, KRZ parametrization is introduced. Sec. \ref{p_wave} discussed the "Kludge" waveform generation method and matched filtering protocol that we used. Then we give our major results about the "confusion" problem for equatorial orbits and inclined orbits in Sec. \ref{p_conf}. Finally, we summarize and discuss the results in Sec. \ref{p_fin}. 
+The rest of this paper is organized as follows. In Sec. \ref{p_krz}, general parametrization for BH spacetime is discussed. Sec. \ref{p_wave} introduced the "Kludge" waveform generation method and matched filtering protocol that we used. Then we give our major results about the "confusion" problem for equatorial orbits and inclined orbits in Sec. \ref{p_conf}. Finally, we summarize and discuss the results in Sec. \ref{p_fin}. 
 
 \section{General Parametrization of Metric around Black Hole}
 \label{p_krz}
@@ -79,7 +79,7 @@ where $\Delta$ is defined in the same way as JP metric, and the functions $A_i(r
 \end{equation}
 
 %Johannsen metric 的问题
-Johannsen metric and JP metric have been adopted by several works on testing Kerr metric, which utilize Ironline\cite{t1_Iron} \cite{t4_Iron}, X-ray polarization\cite{t2_XrayPol}, Black Hole shadows\cite{t3_BHShadow} and etc. However, as mentioned in \cite{johannsen_diff} and \cite {KRZ}, Johannsen metric has several deficiencies. One major problem is expanding the function in power series of $1/r$, so that all element in the series are almost equally important near horizon, which puts a burden when testing Kerr hypothesis in strong field regime. This can be solved by expanding the metric function in power series of $\cos \theta$, as adopted in \cite{KRZ}. The line element around an axisymmetric black hole proposed by Konoplya, Rezzolla and Zhidenko, which we refer to as KRZ metric, is \cite{KRZ}:
+Johannsen metric and JP metric have been adopted by several works on testing Kerr metric, which utilize Ironline\cite{t1_Iron} \cite{t4_Iron}, X-ray polarization\cite{t2_XrayPol}, Black Hole shadows\cite{t3_BHShadow} and etc. However, as mentioned in \cite{johannsen_diff} and \cite {KRZ}, Johannsen metric has several deficiencies. One major problem is expanding the function in power series of $1/r$, so that all element in the series are almost equally important near horizon, which puts a burden when testing Kerr hypothesis in strong field regime. As we will discuss in Sec. \ref{p_conf}, we have to study the dynamics as close to the horizon as possible to mitigate the ``confusion''. This convergence problem can be solved by expanding the metric function in power series of $\cos \theta$, as adopted in \cite{KRZ}. The line element around an axisymmetric black hole proposed by Konoplya, Rezzolla and Zhidenko, which we refer to as KRZ metric, is \cite{KRZ}:
 \begin{equation}
 \begin{aligned}
 	ds^2=-\frac{N^2(r,\theta)-W^2(r,\theta)\sin^2\theta}{K^2(r,\theta)} dt^2-2W(r,\theta)r\sin^2\theta dtd\phi \\+ K^2(r,\theta) r^2\sin^2\theta d\phi^2  +\Sigma(r,\theta)(\frac{B^2(r,\theta)}{r^2 N^2(r,\theta)} dr^2+d\theta^2)
@@ -143,13 +143,30 @@ e=\frac{r_a-r_p}{r_a+r_p},\,\,\, p=\frac{2r_a r_p}{r_a+r_p},\,\,\, \iota=\frac \
 \end{equation} 
 where $r_a$ is apastron, $r_p$ is periastron and $\theta_{min}$ is the minimum of $\theta$ coordinate. In Kerr spacetime, we can determine the three orbit parameters $e,p,\iota$ from three conserved quantities $E,L_z,Q$ and vice versa. In KRZ non-Kerr spacetime, for equatorial orbits, we can still determine $e,p$ by $E,L_z$.
 
-Transform $(r,\,\theta,\,\phi)$ into $(x,\,y,\,z)$ with the definition of spherical coordinate (rather than the Boyer-Lindquist coordinate), namely $x=r\sin\theta \cos \phi,\, y=r\sin\theta\sin\phi,\, z=r\cos\theta$. Then use quadruple formula, %, i.e.
-%\begin{equation}
-%111	
-%\end{equation}
-%
-%where $\bar{h}^{\mu\nu} =$ is the trace-reversed
-transform the waveform into transverse-traceless gauge (see formula (17) and (23) in \cite{kludge}), and we get the plus and cross component of the waveform. With the resulted "plus" and "cross" components, we define our waveform as $h = h_+ + i h_\times$
+Transform $(r,\,\theta,\,\phi)$ into $(x,\,y,\,z)$ with the definition of spherical coordinate (rather than the Boyer-Lindquist coordinate), namely $x=r\sin\theta \cos \phi,\, y=r\sin\theta\sin\phi,\, z=r\cos\theta$. Then use quadruple formula, i.e.
+\begin{equation}
+	\bar{h}^{jk}(t,{\rm {x}})= \frac 2 r [\ddot{T}^{jk} (t')]_{t'=t-r}
+\end{equation}
+\begin{equation}
+	I^{jk}=\mu x'^j_p x'^k_p
+\end{equation}
+where $\bar{h}^{\mu\nu} = h^{\mu\nu} - \frac 1 2 \eta^{\mu\nu} \eta^{\rho\sigma} h_{\rho\sigma} $ is the metric perturbation under trace-reversed gauge
+
+transform the waveform into transverse-traceless gauge (see formula (17) and (23) in \cite{kludge}), and we get the plus and cross component of the waveform observed at latitudinal angle $\Theta $ and azimuthal angle $\Phi$:
+\begin{equation}
+\begin{aligned}
+h_+ =& h^{\Theta\Theta} - h^{\Phi\Phi}\\
+=& \{ \cos^2 \Theta [ h^{xx} \cos^2 \Phi + h^{xy} \sin 2\Phi h^{yy} \sin^2 \Phi ] + h^{zz} \sin^2\Theta - \sin 2\Theta [h^{xz} \cos \Phi + h^{yz} \cos \Phi ] \}\\
+&- [ h^{xx} \sin^2\Phi - h^{xy} \sin 2\Phi + h^{yy} \cos^2 \Phi ]
+\end{aligned}
+\end{equation}\\
+\begin{equation}
+\begin{aligned}
+h_\times =& 2 h^{\Theta\Phi} \\
+=& 2 \{ \cos\Theta[-\frac 12 h^{xx} \sin 2\Phi + h^{xy} \cos 2\Phi + \frac 12 h^{yy} \sin 2\Phi ] + \sin \Theta [h^{xz} \sin \Phi - h^{yz} \cos \Phi ] \}
+\end{aligned}
+\end{equation}
+With the resulted "plus" and "cross" components, we define our waveform as $h = h_+ + i h_\times$
 
 
 Matched filtering is the standard technique to be used in LISA analysis. Here we mainly adopt the fitting factor as  a measure of similarity between two waveforms within LISA band. 
@@ -276,15 +293,16 @@ Similar to equatorial cases, requirements of $a_{\rm{Kerr}}<1$ and stable orbits
 \label{p_fin}
 
 %用了什么方法
-LIGO's detection of GW signal has opened up the era of gravitational wave physics. Future LISA task will be able to extend our sight over a broader spectrum in GW signals. One scientific goal of LISA task is to test Kerr metric or No-Hair Theorem in strong field region, but the "confusion problem" is still a burden. In this paper, we consider the general parametrized metric of axisymmetric BHs, namely KRZ metric. With Kludge method for waveform generation , we investigate the confusion between EMRI waveforms under Kerr metric and KRZ non-Kerr metric. We mainly consider deformation parameters $\delta_1$ and $\delta_2$. For both equatorial and inclined orbits, we study the overlap between waveforms of same orbital frequencies.
+LIGO's detection of GW signal has opened up the era of gravitational wave physics. Future LISA task will be able to extend our sight over a broader spectrum in GW signals. One scientific goal of LISA task is to test Kerr metric or No-Hair Theorem in strong field region, but the "confusion problem" is still a burden. In this paper, we consider the general parametrized metric of axisymmetric BHs, namely KRZ metric. With Kludge method for waveform generation, we investigate the confusion between EMRI waveforms under Kerr metric and KRZ non-Kerr metric. We mainly consider deformation parameters $\delta_1$ and $\delta_2$. For both equatorial and inclined orbits, we study the overlap between waveforms of same orbital frequencies.
 
 %结果是什么，意义是什么
 The results show that the confusion exist in a large range of parameter space for both equatorial and inclined orbits, within the small and medium deviation ($\delta_i<1$) region. However, for high spin and deviation $\delta_i>0$, it is still possible to discern the back ground metric by physical restriction, $a_{\rm{Kerr}}<1$. In equatorial cases, for a given orbital parameters $(e,p)$ the increase of $\delta_i$ is almost equivalent to proportional adding BH spin in Kerr metric, as far as waveforms are considered. Therefore, when matching EMRI waveform to test the background metric, care must be taken to check the ``confusion problem''. 
 
 %展望
-But the ``confusion problem'' we have considered does not rule out the possibility of discerning BH metric with LISA detection. By a longer period of observation, where radiation reaction plays more significant rule, we could possibly observe the difference in orbit evolution by studying EMRI signal. For EMRIs with confusion problem from inclined orbits with same orbital frequencies, the semi-latus $p$ is different for Kerr and non-Kerr cases. Therefore the radiation flux of the GW is different and this can lead to different orbital evolution over longer time scale. Also, the confusion may also be a result of approximation of waveform generation methods, which ignore higher order contributions to GW signals. In the future, we will extend our analysis to waveforms generated by more accurate methods and add radiation reaction over longer time scales. 
+But the ``confusion problem'' we have considered does not rule out the possibility of discerning BH metric with LISA detection. By a longer period of observation, where radiation reaction plays a more significant role, we could possibly observe the difference in orbit evolution by studying EMRI signal. For EMRIs with confusion problem from inclined orbits with same orbital frequencies, the semi-latus $p$ is different for Kerr and non-Kerr cases. Therefore the radiation flux of the GW is different and this can lead to different orbital evolution over longer time scale. Also, the confusion may be a result of approximation of waveform generation methods, which ignore higher order contributions to GW signals. In the future, we will extend our analysis to waveforms generated by more accurate methods and add radiation reaction over longer time scales. 
 
-Also, 
+%用别的方式确定spin/mass, multimessenger: GW+ Xray+ neutrino
+Another way out is multi-messenger measurements. \cite{measureBHspin}
 
 
 \bibliography{citation}

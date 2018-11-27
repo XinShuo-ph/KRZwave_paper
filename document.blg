@@ -2,6 +2,7 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: document.aux
 The style file: plain.bst
 Database file #1: citation.bib
 Warning--entry type for "lisa" isn't style-file defined
---line 209 of file citation.bib
+--line 349 of file citation.bib
 Warning--to sort, need author or key in lisa
-(There were 2 warnings)
+Warning--can't use both author and editor fields in measureBHspin
+(There were 3 warnings)
