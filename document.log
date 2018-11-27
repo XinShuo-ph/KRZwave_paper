@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.11)  27 NOV 2018 10:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.11)  27 NOV 2018 15:56
 entering extended mode
 **./document.tex
 (document.tex
@@ -301,83 +301,88 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
+Overfull \hbox (35.06024pt too wide) in paragraph at lines 18--18
+ [][] 
+ []
+
 [1
 
 {C:/Users/HP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
-LaTeX Warning: Reference `p_mf' on page 2 undefined on input line 38.
+LaTeX Warning: Reference `p_mf' on page 2 undefined on input line 40.
 
 [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 [5]
-<eg.pdf, id=34, pagebox=cropbox, 1445.4pt x 361.35pt>
+<eg.pdf, id=37, pagebox=cropbox, 1445.4pt x 361.35pt>
 File: eg.pdf Graphic file (type pdf)
 <use eg.pdf>
-Package pdftex.def Info: eg.pdf  used on input line 195. on input line 195.
+Package pdftex.def Info: eg.pdf  used on input line 197. on input line 197.
 Package pdftex.def Info: Requested size: 455.24408pt x 113.80931pt on input lin
-e 195.
+e 197.
 
-Overfull \hbox (25.23946pt too wide) in paragraph at lines 195--196
+Overfull \hbox (25.23946pt too wide) in paragraph at lines 197--198
  [][] 
  []
 
-<OLdist.pdf, id=35, pagebox=cropbox, 433.62pt x 289.08pt>
+<OLdist.pdf, id=38, pagebox=cropbox, 433.62pt x 289.08pt>
 File: OLdist.pdf Graphic file (type pdf)
 <use OLdist.pdf>
-Package pdftex.def Info: OLdist.pdf  used on input line 205. on input line 205.
+Package pdftex.def Info: OLdist.pdf  used on input line 207. on input line 207.
 
 Package pdftex.def Info: Requested size: 199.16928pt x 132.7799pt on input line
- 205.
-<OLdist2.pdf, id=36, pagebox=cropbox, 433.62pt x 289.08pt>
+ 207.
+<OLdist2.pdf, id=39, pagebox=cropbox, 433.62pt x 289.08pt>
 File: OLdist2.pdf Graphic file (type pdf)
 <use OLdist2.pdf>
-Package pdftex.def Info: OLdist2.pdf  used on input line 206. on input line 206
+Package pdftex.def Info: OLdist2.pdf  used on input line 208. on input line 208
 .
 Package pdftex.def Info: Requested size: 199.16928pt x 132.7799pt on input line
- 206.
+ 208.
 [6 <./eg.pdf>]
-<ep_best_dist.pdf, id=85, pagebox=cropbox, 433.62pt x 289.08pt>
+<ep_best_dist.pdf, id=88, pagebox=cropbox, 433.62pt x 289.08pt>
 File: ep_best_dist.pdf Graphic file (type pdf)
 <use ep_best_dist.pdf>
-Package pdftex.def Info: ep_best_dist.pdf  used on input line 216. on input lin
-e 216.
+Package pdftex.def Info: ep_best_dist.pdf  used on input line 218. on input lin
+e 218.
 Package pdftex.def Info: Requested size: 284.52756pt x 189.69504pt on input lin
-e 216.
-<FF_am.pdf, id=86, pagebox=cropbox, 433.62pt x 289.08pt>
+e 218.
+<FF_am.pdf, id=89, pagebox=cropbox, 433.62pt x 289.08pt>
 File: FF_am.pdf Graphic file (type pdf)
 <use FF_am.pdf>
-Package pdftex.def Info: FF_am.pdf  used on input line 224. on input line 224.
+Package pdftex.def Info: FF_am.pdf  used on input line 226. on input line 226.
 Package pdftex.def Info: Requested size: 284.52756pt x 189.69504pt on input lin
-e 224.
-<d1_spin_linear.pdf, id=87, pagebox=cropbox, 722.7pt x 578.16pt>
+e 226.
+<d1_spin_linear.pdf, id=90, pagebox=cropbox, 722.7pt x 578.16pt>
 File: d1_spin_linear.pdf Graphic file (type pdf)
 <use d1_spin_linear.pdf>
-Package pdftex.def Info: d1_spin_linear.pdf  used on input line 234. on input l
-ine 234.
-Package pdftex.def Info: Requested size: 199.16928pt x 159.33414pt on input lin
-e 234.
-<d2_spin_linear.pdf, id=88, pagebox=cropbox, 722.7pt x 578.16pt>
-File: d2_spin_linear.pdf Graphic file (type pdf)
-<use d2_spin_linear.pdf>
-Package pdftex.def Info: d2_spin_linear.pdf  used on input line 235. on input l
-ine 235.
-Package pdftex.def Info: Requested size: 199.16928pt x 159.33414pt on input lin
-e 235.
-<d1_M.pdf, id=89, pagebox=cropbox, 722.7pt x 578.16pt>
-File: d1_M.pdf Graphic file (type pdf)
-<use d1_M.pdf>
-Package pdftex.def Info: d1_M.pdf  used on input line 236. on input line 236.
+Package pdftex.def Info: d1_spin_linear.pdf  used on input line 236. on input l
+ine 236.
 Package pdftex.def Info: Requested size: 199.16928pt x 159.33414pt on input lin
 e 236.
-<d2_M.pdf, id=90, pagebox=cropbox, 722.7pt x 578.16pt>
-File: d2_M.pdf Graphic file (type pdf)
-<use d2_M.pdf>
-Package pdftex.def Info: d2_M.pdf  used on input line 237. on input line 237.
+<d2_spin_linear.pdf, id=91, pagebox=cropbox, 722.7pt x 578.16pt>
+File: d2_spin_linear.pdf Graphic file (type pdf)
+<use d2_spin_linear.pdf>
+Package pdftex.def Info: d2_spin_linear.pdf  used on input line 237. on input l
+ine 237.
 Package pdftex.def Info: Requested size: 199.16928pt x 159.33414pt on input lin
 e 237.
+<d1_M.pdf, id=92, pagebox=cropbox, 722.7pt x 578.16pt>
+File: d1_M.pdf Graphic file (type pdf)
+<use d1_M.pdf>
+Package pdftex.def Info: d1_M.pdf  used on input line 238. on input line 238.
+Package pdftex.def Info: Requested size: 199.16928pt x 159.33414pt on input lin
+e 238.
+<d2_M.pdf, id=93, pagebox=cropbox, 722.7pt x 578.16pt>
+File: d2_M.pdf Graphic file (type pdf)
+<use d2_M.pdf>
+Package pdftex.def Info: d2_M.pdf  used on input line 239. on input line 239.
+Package pdftex.def Info: Requested size: 199.16928pt x 159.33414pt on input lin
+e 239.
  [7 <./OLdist.pdf> <./OLdist2.pdf
 
 pdfTeX warning: pdflatex.exe (file ./OLdist2.pdf): PDF inclusion: multiple pdfs
@@ -387,68 +392,68 @@ pdfTeX warning: pdflatex.exe (file ./OLdist2.pdf): PDF inclusion: multiple pdfs
 pdfTeX warning: pdflatex.exe (file ./ep_best_dist.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >]
-<d2_deltaspin_ep.pdf, id=202, pagebox=cropbox, 867.24pt x 578.16pt>
+<d2_deltaspin_ep.pdf, id=205, pagebox=cropbox, 867.24pt x 578.16pt>
 File: d2_deltaspin_ep.pdf Graphic file (type pdf)
 <use d2_deltaspin_ep.pdf>
-Package pdftex.def Info: d2_deltaspin_ep.pdf  used on input line 244. on input 
-line 244.
+Package pdftex.def Info: d2_deltaspin_ep.pdf  used on input line 246. on input 
+line 246.
 Package pdftex.def Info: Requested size: 227.62204pt x 151.74721pt on input lin
-e 244.
-<2D_bound.pdf, id=203, pagebox=cropbox, 722.7pt x 578.16pt>
+e 246.
+<2D_bound.pdf, id=206, pagebox=cropbox, 722.7pt x 578.16pt>
 File: 2D_bound.pdf Graphic file (type pdf)
 <use 2D_bound.pdf>
-Package pdftex.def Info: 2D_bound.pdf  used on input line 254. on input line 25
-4.
+Package pdftex.def Info: 2D_bound.pdf  used on input line 256. on input line 25
+6.
 Package pdftex.def Info: Requested size: 199.16928pt x 159.33414pt on input lin
-e 254.
-<2D_bound_d2.pdf, id=204, pagebox=cropbox, 722.7pt x 578.16pt>
+e 256.
+<2D_bound_d2.pdf, id=207, pagebox=cropbox, 722.7pt x 578.16pt>
 File: 2D_bound_d2.pdf Graphic file (type pdf)
 <use 2D_bound_d2.pdf>
-Package pdftex.def Info: 2D_bound_d2.pdf  used on input line 255. on input line
- 255.
+Package pdftex.def Info: 2D_bound_d2.pdf  used on input line 257. on input line
+ 257.
 Package pdftex.def Info: Requested size: 199.16928pt x 159.33414pt on input lin
-e 255.
-<r3d.pdf, id=205, pagebox=cropbox, 722.7pt x 361.35pt>
+e 257.
+<r3d.pdf, id=208, pagebox=cropbox, 722.7pt x 361.35pt>
 File: r3d.pdf Graphic file (type pdf)
 <use r3d.pdf>
-Package pdftex.def Info: r3d.pdf  used on input line 269. on input line 269.
+Package pdftex.def Info: r3d.pdf  used on input line 271. on input line 271.
 Package pdftex.def Info: Requested size: 199.16928pt x 99.58383pt on input line
- 269.
-<th3d.pdf, id=206, pagebox=cropbox, 722.7pt x 361.35pt>
+ 271.
+<th3d.pdf, id=209, pagebox=cropbox, 722.7pt x 361.35pt>
 File: th3d.pdf Graphic file (type pdf)
 <use th3d.pdf>
-Package pdftex.def Info: th3d.pdf  used on input line 270. on input line 270.
+Package pdftex.def Info: th3d.pdf  used on input line 272. on input line 272.
 Package pdftex.def Info: Requested size: 199.16928pt x 99.58383pt on input line
- 270.
-<trace3d.pdf, id=207, pagebox=cropbox, 722.7pt x 722.7pt>
+ 272.
+<trace3d.pdf, id=210, pagebox=cropbox, 722.7pt x 722.7pt>
 File: trace3d.pdf Graphic file (type pdf)
 <use trace3d.pdf>
-Package pdftex.def Info: trace3d.pdf  used on input line 271. on input line 271
+Package pdftex.def Info: trace3d.pdf  used on input line 273. on input line 273
 .
 Package pdftex.def Info: Requested size: 199.16928pt x 199.16766pt on input lin
-e 271.
-<tracexy.pdf, id=208, pagebox=cropbox, 578.16pt x 578.16pt>
+e 273.
+<tracexy.pdf, id=211, pagebox=cropbox, 578.16pt x 578.16pt>
 File: tracexy.pdf Graphic file (type pdf)
 <use tracexy.pdf>
-Package pdftex.def Info: tracexy.pdf  used on input line 272. on input line 272
+Package pdftex.def Info: tracexy.pdf  used on input line 274. on input line 274
 .
 Package pdftex.def Info: Requested size: 199.16928pt x 199.16547pt on input lin
-e 272.
-<wave_d102.pdf, id=209, pagebox=cropbox, 1445.4pt x 361.35pt>
+e 274.
+<wave_d102.pdf, id=212, pagebox=cropbox, 1445.4pt x 361.35pt>
 File: wave_d102.pdf Graphic file (type pdf)
 <use wave_d102.pdf>
-Package pdftex.def Info: wave_d102.pdf  used on input line 273. on input line 2
-73.
+Package pdftex.def Info: wave_d102.pdf  used on input line 275. on input line 2
+75.
 Package pdftex.def Info: Requested size: 398.33858pt x 99.58383pt on input line
- 273.
+ 275.
  [8 <./FF_am.pdf>]
-<3D_bound.pdf, id=250, pagebox=cropbox, 722.7pt x 578.16pt>
+<3D_bound.pdf, id=253, pagebox=cropbox, 722.7pt x 578.16pt>
 File: 3D_bound.pdf Graphic file (type pdf)
 <use 3D_bound.pdf>
-Package pdftex.def Info: 3D_bound.pdf  used on input line 283. on input line 28
-3.
+Package pdftex.def Info: 3D_bound.pdf  used on input line 285. on input line 28
+5.
 Package pdftex.def Info: Requested size: 227.62204pt x 182.0949pt on input line
- 283.
+ 285.
  [9 <./d1_spin_linear.pdf> <./d2_spin_linear.pdf
 
 pdfTeX warning: pdflatex.exe (file ./d2_spin_linear.pdf): PDF inclusion: multip
@@ -512,21 +517,23 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-
-Output written on document.pdf (15 pages, 1006974 bytes).
+1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on document.pdf (15 pages, 1032376 bytes).
 PDF statistics:
- 855 PDF objects out of 1000 (max. 8388607)
+ 867 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
